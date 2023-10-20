@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Device Selector</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px; /* Set the font size to 18px (you can adjust this value) */
+        }
+
+        .image-container {
+            margin: 20px;
+        }
+
+        /* Styles for the button images */
+        .button img {
+            vertical-align: middle;
+            margin-right: 10px; /* Add some spacing between the image and text */
+            width: 128px; /* Set the width to 128px */
+            height: 128px; /* Set the height to 128px */
+        }
+    </style>
+</head>
+<body>
+    <h1>בחר מכשיר להפעלת המשחק</h1>
+    <button class="button" id="mobileButton">
+        <img src="mobile-icon.png" alt="Mobile Icon">מובייל
+    </button>
+    <button class="button" id="pcButton">
+        <img src="pc-icon.png" alt="PC Icon">מחשב
+    </button>
+
+    <div class="image-container">
+        <img src="TitleImage.jpg" alt="Title Image">
+    </div>
+
+    <script>
+        document.getElementById("mobileButton").addEventListener("click", function() {
+            // Redirect or load content for mobile users
+            window.location.href = "mobileSite.html";
+        });
+
+        document.getElementById("pcButton").addEventListener("click", function() {
+            // Navigate to the specified link when "PC" button is clicked
+            window.location.href = "https://v6p9d9t4.ssl.hwcdn.net/html/8928932/index.html";
+        });
+    </script>
+</body>
+</html>
