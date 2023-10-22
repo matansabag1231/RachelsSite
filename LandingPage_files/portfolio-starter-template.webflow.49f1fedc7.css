@@ -198,6 +198,8 @@ figcaption {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
+   display: flex;
+   justify-content: center;
 }
 
 .styleguide-content-wrap {
