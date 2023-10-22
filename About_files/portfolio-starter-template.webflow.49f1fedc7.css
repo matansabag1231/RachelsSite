@@ -276,11 +276,13 @@ figcaption {
 }
 
 .label.cc-about-light {
+   text-align: right;
   opacity: 0.6;
 }
 
 .paragraph-light {
    font-family: 'Suez One', serif;
+   text-align: right;
   opacity: 0.6;
 }
 
@@ -769,6 +771,7 @@ figcaption {
 }
 
 .hi-there-heading {
+   text-align: right;
    font-family: 'Suez One', serif;
   margin-top: 10px;
   margin-bottom: 20px;
