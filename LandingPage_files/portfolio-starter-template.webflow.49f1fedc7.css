@@ -509,7 +509,7 @@ figcaption {
 }
 
 .works-grid {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   grid-template-areas: ". . ." ". . .";
