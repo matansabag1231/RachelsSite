@@ -85,6 +85,7 @@ p {
 }
 
 a {
+font-family: 'Suez One', serif;
   display: block;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
