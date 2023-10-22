@@ -243,6 +243,7 @@ figcaption {
 }
 
 .heading-jumbo {
+font-family: 'Suez One', serif;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 64px;
@@ -347,6 +348,7 @@ figcaption {
 }
 
 .paragraph-bigger {
+	font-family: 'Suez One', serif;
   margin-bottom: 10px;
   opacity: 1;
   font-size: 20px;
@@ -355,6 +357,7 @@ figcaption {
 }
 
 .paragraph-bigger.cc-bigger-light {
+	font-family: 'Suez One', serif;
   opacity: 0.6;
 }
 
